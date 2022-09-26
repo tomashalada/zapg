@@ -1,0 +1,17 @@
+https://github.com/tomashalada/zapg
+
+1. tridiagonalni matici o rozmerech 10x10 s cisly (-1, 2, 1)
+ - determinant
+ - vlastni cisla
+ - vlastni vektory
+ - hodnost
+napoveda: google -> matlab how to create tridiagonal matrix
+
+ - vektor prave strany b = 1, ..., 10
+ - reste Ax =b
+
+2. vytvorte graf funkce f(x) = exp(x) na intervalu [0, 2]
+ - spolecne s tim funkci f(x) = x^3 + x^2 + x
+ - popiste osy
+ - titulek grafu, legenda
+

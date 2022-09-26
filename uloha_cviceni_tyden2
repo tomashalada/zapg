@@ -1,0 +1,15 @@
+https://github.com/tomashalada/zapg/tree/main/02
+
+1. Vytvorte tridiagonalni matici o rozmeru 10x10 s cisly (1, 2, 1)
+    - vytvorte pomoci for cyklu a prikazu if
+
+2. Nactete soubory 'data1.txt' a 'data2.txt' - kazdy soubor obsahuje dva sloupce,
+   prvni sloupec je v obou pripadech stejny
+    Vytvorte:
+
+    - graf dat ze souboru 1 a 2
+    - logaritmicka osa y
+    - udelat prumer dat z prvniho a druheho souboru
+                        - pomoci prikazu
+                        - pomoci for cyklu
+    - prumery zapiste do souboru souboru pomoci prikazu
