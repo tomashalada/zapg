@@ -1,0 +1,42 @@
+#!/bin/bash
+
+ls #...zobrazi obsah adresare
+
+mkdir nazev_slozky #...vytvori slozku
+
+cd nazev_slozky #...presune se do prislusne slozky (destinace)
+cd .. #...nacte predchozi slozku stromu
+# - "cd vysledna/destinace" ...nacte prislusnou destinaci
+# - "cd - " ...nacte predchozi destinaci
+
+touch nazev_souboru #...vytvori soubor, (napriklad "touch skript.m", touch "poznamky.txt")
+
+pwd #...zobrazi cestu k atkalni slozce
+
+echo "vystup do konzole" #...prikaz pro vypis do konzole
+echo $PATH #...zobrazi systemovou promennou PATH
+
+cat zakladni_prikazy #vypise obsah souboru do terminalu
+#pozn. dale napriklad "head nazev_souboru", ci "tail nazev_souboru" v
+#      vypise zacatek ci konec souboru
+#      pripadne lze pouzit head -pocet_radku nazev_souboru, ci "tail -pocet_radku nazev_souboru"
+
+man prikaz #...zobrazi dokumentaci k prikazu
+
+cp nazev_souboru nazev_kopie #...vytvori kopii souboru
+#v pripade slozky je nutne pouzit prepinac -r
+cp -r nazev_slozky nazev_kopie_slozky #...vytvori kopii slozky
+
+mv nazev novy_nazev #...prejmenuje/presune soubor
+#pozn. nazev souboru je tvoren celou jeho "cestou"
+#      tj. napriklad /home/user/documents/notes.txt
+
+grep hledana_sekvence prohledavany_soubor #...najdi vyskyt v soboru,vystuou
+
+diff soubor_prvni soubor_druhy #...zobrazi rozdil mezi soubory
+
+kill proces #...vypne prislusny proces, program
+
+#....
+
+

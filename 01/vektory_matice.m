@@ -5,15 +5,21 @@ b_sloupcovy = [ 1; 2.1; 3 ]     % soupcovy vektor, prvku (radky) oddelene ";"
 
 b = b_radkovy;      % prirad do vektoru "b" vektor "b_radkovy" a nevypisuj
 
+disp("__________________________________________________")
+
 b( 2 )                                              % druhy prvek vektoru b
-fprintf( " Druhý prvek vektoru b %d\n", b( 2 ) )    % druhy prvek vektoru b
+fprintf( "Druhý prvek vektoru b %d\n", b( 2 ) )    % druhy prvek vektoru b
 b( 2 ) = 3.1                                        % znen druhou hodnotu vektoru b
+
+disp("__________________________________________________")
 
 % Pozor! Octave i Matlab indexuji pole(prvky vektoru, matic) od 1, ackoliv
 %        standardne se pouziva indexovani od cisla 0
 
 disp( "Řádkový na sloupcový: " ), b_radkovy'      % transponuj vektor pomoci prikazu "'"
 disp( "Sloupcový na řádkový: " ), b_sloupcovy'    % transponuj vektor pomoci prikazu "'"
+
+disp("__________________________________________________")
 
 a = [1, 3, 7.2]
 c = a + b                   % scitani vektoru
@@ -24,8 +30,12 @@ c = b_radkovy * b_sloupcovy % nasobeni vektoru - maticove [1,3]*[3,1]
 
 c = dot(b_sloupcovy , b_radkovy) % nasobeni vektoru skalarni produkt
 
+disp("__________________________________________________")
+
 d = [ 1.2, 3.7 ]
-% error: c = a + d          % vzajemne nekompatibilni rozmer!
+% error c = a + d          % vzajemne nekompatibilni rozmer!
+
+disp("__________________________________________________")
 
 
 %% Operace s vektory
@@ -35,6 +45,8 @@ s_sorted = sort(s)      % serad vektor p
 s_maximum = max(s)      % najdi maximalni prvek ve vektoru s
 s_maximum = mean(s)     % urci prumernou hodnotu vektoru s
 s_maximum = std(s)      % urci standardni odchylku hodnot ve vektoru s
+
+disp("__________________________________________________")
 
 %% Matice
 
@@ -46,7 +58,11 @@ A = [ 4, -2,  0;
 
 B = [ 4, -2, 0, 1; 0,  2, 0, 3; 0,  0, 2, 5 ]
 
+disp("__________________________________________________")
+
 Bsize = size(B)     % vypise rozmery matice B
+
+disp("__________________________________________________")
 
 C = zeros( 2, 2 )   % vytvor matici obsahujici pouze nuly
 C = ones( 2, 4 )    % vytvor matici obsahujici pouze jednicky
@@ -55,20 +71,29 @@ diagonala = [ 8, 2.7, 3 ];
 C = diag( diagonala ) % vytvor diagonalni matici se zadanou diagonalou
 C = diag( 1:4 )       % vytvor diagonalni matici s prvky 1:5 na diagonale
 
+disp("__________________________________________________")
+
 disp("")    % vloz prazdny radek
 A( 1, 2 )                                              % prvek [ 1,2 ] matice A
 fprintf( " Druhý prvek vektoru b %d\n", A( 1, 2 ) )    % prvek [ 1,2 ] matice A
 A( 1, 2 ) = -3                                         % zmen [ 1,2 ] hodnotu matice A
 
+disp("__________________________________________________")
+
 det( A )                          % zobrazi hodnotu determinant mat. A
 determ_A = det( A )               % ulozi hodnotu determinant mat. A do promenne determ_A
+
+disp("__________________________________________________")
 
 eig( A )                          % zobrazi vlastni cisla
 vl_cisla = eig( A )               % uloz vlastni cisla do promenne vl_cisla
 
+
 [ vl_vekt, vl_cisla ] = eig( A )  % uloz vlastni cisla a vektory do promennych
 
 Atransponovana = A'               % transpozice
+
+disp("__________________________________________________")
 
 %% Nasobeni matic
 
@@ -76,6 +101,8 @@ A = [ 4, -2, 0; 0,  2, 0; 0,  0, 2 ]
 B = [ 1.7, 6, 2; 3.1, 5, 6; 0.2, 3, 1 ]
 C = [ 1, 3, 4; 2, 1 4.2  ]
 b = [ 1, 2.1, 3 ]
+
+disp("__________________________________________________")
 
 E = A * B           % vynasob matice - MATICOVE NASOBENI
 E = A .* B          % vynasob matice PRVEK PO PRVKU
@@ -85,6 +112,8 @@ E = C * A           % vynasob matice - MATICOVE NASOBENI
 E = A * C'          % vynasob matice - maticove nasobeni - transpozice
 
 E = A * b'          % matice * vektor
+
+disp("__________________________________________________")
 
 x = A\b'            % vyres soustavu rovnic Ax = b
 
