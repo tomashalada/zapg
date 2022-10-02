@@ -26,13 +26,13 @@ disp("__________________________________________________")
 
 % PROTIPRIKLAD - TAKHLE NE!
 % -------------------------------------------------------
-%if prommena = 3.32
-%  ("3. podminka splnena -> promenna == 3.32")
-%end
-%
-%if prommena = 4.18
-%  ("4. podminka splnena -> promenna == 3.32")
-%end
+if prommena = 3.32
+  ("3. podminka splnena -> promenna == 3.32")
+end
+
+if prommena = 4.18
+  ("4. podminka splnena -> promenna == 3.32")
+end
 % -------------------------------------------------------
 % KONEC PROTIPRIKLADU
 
