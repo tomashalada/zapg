@@ -58,7 +58,7 @@ polohy_cisla_tri = find(x == 3)  % prikz find(OBEJKT (tj. vektor, matice) + podm
 rozmery = size(polohy_cisla_tri) % vypis velikost vektoru ktery obsahuje polohy
                                  % cila 3 ve vektoru x
 
-for i = 1:size(polohy_cisla_tri)(2) % proved cyklus pres vsechny prvky vektoru pozic
+for i = 1:length(polohy_cisla_tri)  % proved cyklus pres vsechny prvky vektoru pozic
   x( polohy_cisla_tri( i ) )        % vypis vypis cisla tri
 end
 
@@ -79,7 +79,7 @@ polohy_sudych_cisel = find( rem(x , 2) == 0 ) % najdi ve vektoru x vsechna suda 
                                               % je-li cislo sude, zbytek po deleni
                                               % dvojkou je nula
 
-for i = 1:size(polohy_sudych_cisel)(2)        % cyklus v delce rozmeru vektoru poloh
+for i = 1:length(polohy_sudych_cisel)         % cyklus v delce rozmeru vektoru poloh
                                               % sudych cisel
 
   x( polohy_sudych_cisel( i ) )               % vypis nalezena suda cisla
@@ -100,7 +100,7 @@ polohy_lichych_ciesel = find( rem(x , 2) != 0 ) % najdi ve vektoru x vsechan lic
                                               % je-li cislo sude, zbytek po deleni
                                               % dvojkou neni nula
 
-for i = 1:size(polohy_sudych_cisel)(2)        % cyklus v delce rozmeru vektoru poloh
+for i = 1:length(polohy_sudych_cisel)         % cyklus v delce rozmeru vektoru poloh
                                               % sudych cisel
   x( polohy_sudych_cisel( i ) )
 
@@ -109,6 +109,7 @@ for i = 1:size(polohy_sudych_cisel)(2)        % cyklus v delce rozmeru vektoru p
 end
 
 disp("__________________________________________________")
+
 
 % Vytvor ukazkovou matici a modifikuj nekolik prvku
 X = zeros(3)
@@ -122,4 +123,5 @@ X                                     % Modifikovana matice
 nenulove_prvky_matice_X = find(X)     % Samotny prikaz "find(@matice NEBO @vektor)" bez specifikovane
                                       % podmninky najde polohy vsech nenulovych prvku zadaneho objekta
 
+[index_i, index_j] = find(X)          % Vrati index i a j nenulovych prvku v matici x
 

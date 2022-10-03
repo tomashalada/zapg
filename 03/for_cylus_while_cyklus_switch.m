@@ -29,7 +29,7 @@ x(8) = 4; x(9) = 6;      % modifikuj vektor x
 
 x                        % zobraz vektor x
 
-for k = 1:size(x)(2)     % projdi vsechny prvky vektoru x
+for k = 1:length(x)      % projdi vsechny prvky vektoru x
   fprintf(" Prvek vektoru: %d.\n", x( k )) % vypis dany prvek pomoci
                                            % formatovaneho vystupu
   if x( k ) == 5         % pokud prvek nabyva hodnoty 5
