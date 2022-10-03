@@ -1,0 +1,19 @@
+https://github.com/tomashalada/zapg/tree/main/03
+
+1. Vytvorte horni trojuhlenikovou matici o rozmerech 10x10 pomoci for cyklu,
+   -> na diagonale cisla od 1 do 10
+
+2. Vytovorte matici nahodnych cisel o rozmeru 100x100
+   -> zjistete prumer vsech radku
+   -> vyneste do grafu hodnoty vsech radku a jejich prumer a standardni odchylku
+
+   -> z vektoru prumeru urcete nejmensi hodnotu
+        - pomoci prikazu
+        - pomoci for cyklu
+
+  -> prumer a standardni ochulku zapsat do souboru
+
+__________________________________________
+MOODLE TEST: -> zaslat skript pouzity pro vypracovani !!!
+                tomas.halada@fs.cvut.cz
+
