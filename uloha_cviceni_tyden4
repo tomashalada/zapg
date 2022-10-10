@@ -1,0 +1,35 @@
+https://github.com/tomashalada/zapg/tree/main/03
+
+1.  - Nactete data ze souboru "ux.dat"
+      Prvni sloupec obsahuje vstupni signal a druhy sloupec prislusnou reakci systemy.
+
+    - Pomoci linearniho neuronu provedte predikci reakce systemy
+      na zaklade vstupnich dat
+
+      Linearni neuron ma tvar:
+
+    Y_predikovane = W * X
+    X = [x1, x2, x3, x4] =  [y(k-1) y(k-2) u(k-1) u(k-2)]
+    W = [w1, w2, w3, w4]
+
+    Data jsou ziskana v jednotlivych casovych krocich s konstatnim vzorkovanim.
+    V kazdem casovem kroku:  - vycislete vektor  X
+                             - urcete predikci v danem casovem
+                               kroku Y_predikovane = W*X
+                             - urcete chybu mezi predikovanou hodnotou a mereznymi
+                               hodnotami E = Y_merene - Y_predikovane
+                             - urcete, o kolik se zmeni vahy W pomoci
+                               vztahu DW = mu* E * X
+                             - aktualizujte vahy W = W + DW
+
+    Timto zpusobem zpracujte vsechny casove kroky.
+    Cely proces provedte 10x (pri kazdem opakovani, tj. v kazde epose) se zlepsi
+    odhad vah W. Tento proces se nazyva jako trenovani a jednotlive cykly jako epochy.
+
+    - Vysledky zobrazte pomoci subplotu ("help subplot") jako tri grafy pod sebou.
+      - V prvnim grafu bude vynesen vstupni signal a merena data
+      - V druhem grafu budou vynesena merena a predikovana data
+      - Ve tretim grafu bude vynesena chyba mezi perdikovanymi a merenymi daty
+
+    ... detailni navod "uloha_cviceni_tyden4_neuron.pdf"
+
