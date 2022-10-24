@@ -1,0 +1,10 @@
+https://github.com/tomashalada/zapg/blob/main/06/data.m
+
+1. Vytvorte funkci ktera provede aproximaci zadanych dat polynomem N-teho stupne.
+
+  - overte na linearnim polynomu
+  - overte na kvaratickem polynomu
+  - overte na obecnych datech polynomu
+
+  - porovnejte aproximaci pomoci polynomu 4, 5, 6 radu
+  - zobrazte kvadratickou odchylku
