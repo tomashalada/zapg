@@ -1,0 +1,16 @@
+1. Vytvorte funkci na numerickou integraci pro obdelnikove, lichobeznikove, Simpsonovo pravidlo a Simpsonovo 3/8 pravidlo.
+    -> google: Newton Cotes formula
+
+  - Struktura funkce:
+    VSTUPY: @ integrovana funkce
+            @ interval
+            @ deleni intervalu (pocet dilku na intervalu)
+            @ typ numericke ingegrace
+
+
+    VYSTUPY: -> cislo: hodnota integralu z dane funkce na
+                       danem intervalu
+
+
+2. Otestujte vytvorenou funkci pro numerickou integraci z prvni casti na Vami vytvorene funkci f(x), vyzkousejte ruzne
+   typy numericke integrace a ruzne deleni intervalu. (Vysledky lze napriklad zobrazit do grafu.)
