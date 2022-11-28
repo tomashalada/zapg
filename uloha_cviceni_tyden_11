@@ -1,0 +1,15 @@
+Vyberte jednu z nasledujicich:
+
+1. Vymyslete a vyberte vlastni problem, kde muzete uplatnit skript a kde Vam zjednodusi praci:
+		- zadefinujte problem: co bude VSTUP, co bude VYSTUP
+		- pri reseni pouzijte matlab funcki
+		- pouziti struktury nebo tridy neni podminkou ale bude bonusove ohodnoceno
+		- skrit dobre prehledny ( ukladani do souboru, nacitani ze souboru (je-li to nutne), dobre popsane grafy, deklarace konstant, nazvy promennych )
+
+
+
+2. Vytvorte tridu pro n-uhlenik
+		- pro tridu zadefinujte funkce k vypoctu obsahu, obvodu
+			( n-uhlenik je mozne zadat pomoci bodu vrcholu, ci jakkoliv jinak )
+		- vytvorte funkci, ktera urci, zda se dva n-uhelniky protinaji
+		- ostestuje na jednoduchem prikladu
