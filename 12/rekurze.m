@@ -8,4 +8,4 @@ else
 end
 end
 
-faktorial(6)
+faktorial(4)
