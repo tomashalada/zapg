@@ -1,0 +1,4 @@
+Naprogramujte Erathostenovo síto. (https://cs.wikipedia.org/wiki/Eratosthenovo_s%C3%ADto)
+Pomocí Erathostenova síta určete všechna prvočísla menší než 900.
+
+Vytvořte matici o rozměru 30x30 reprezentující všechna čísla od 1 do 900, na pozice prvočísel umístěte jedničku a matici zobrazte pomocí příkazu imshow.
