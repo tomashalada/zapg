@@ -102,7 +102,7 @@ Jde spíš o to, abyste viděli, co je možné udělat či zapsat a případě k
 Na úvod doporučuji například:
 
 - Úplné základy jsou velmi hezky zpracované [v materiálech FJFI od Jakuba Klinkovského](https://gitlab.fjfi.cvut.cz/ksi/zpro-2023-public). Podklady vysvětlují klíčové koncepty a syntax v jazyce python.
-- Víc konkrétních ukázek a méně technických detailů lze najít dále například v [podkladech k předmětu Vědecké programování v Pthonu z FJFI](https://coobas.gitlab.io/python-fjfi/). Docela pěkný úvod do [základních funkcí pythonu](https://coobas.gitlab.io/python-fjfi/posts/zakladni-syntaxe.html). Obdobný přehled příkazů v [knihovně NumPy](https://coobas.gitlab.io/python-fjfi/posts/zaklady-numpy.html) a v [knihovně Matplotlib](https://coobas.gitlab.io/python-fjfi/posts/matplotlib.html)
+- Víc konkrétních ukázek a méně technických detailů lze najít dále například v [podkladech k předmětu Vědecké programování v pythonu z FJFI](https://coobas.gitlab.io/python-fjfi/). Docela pěkný úvod do [základních funkcí pythonu](https://coobas.gitlab.io/python-fjfi/posts/zakladni-syntaxe.html). Obdobný přehled příkazů v [knihovně NumPy](https://coobas.gitlab.io/python-fjfi/posts/zaklady-numpy.html) a v [knihovně Matplotlib](https://coobas.gitlab.io/python-fjfi/posts/matplotlib.html)
 
 Doplňující poklady Numpy:
 
