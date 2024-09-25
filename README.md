@@ -1,12 +1,12 @@
 # Podmínky pro udělení zápočtu zápočtu
 
-- Zápočet je udělen jako průměr známek z jednotlivých cvičení. Žádné z cvičení nesmí zůstat neklasifikované nebo klasifikované nedostateneč.
-- Známky z cvičení jsou uděleny na základě vypracovaného úkolu/moodle testu/obojího dle příslušeného cvičení. Je vyžadováno porozumění úkolům!
+- Zápočet je udělen jako průměr známek z jednotlivých cvičení. Žádné z cvičení nesmí zůstat neklasifikované nebo klasifikované nedostatečně.
+- Známky z cvičení jsou uděleny na základě vypracovaného úkolu/moodle testu/obojího dle příslušného cvičení. Je vyžadováno porozumění úkolům!
 - Absenci je nutné nahlásit! Akceptovatelné jsou 2 nahlášené a omluvené absence. Úkol/moodle test z daného cvičení je nutné absolvovat!
 - Semestrální práce:
 
    1. Najít a vymyslet nějaký problém, kde můžete probíranou látku aplikovat. Zdůvodnit, proč Vám algoritmizace a programování v daném problému pomůže. Přesně definovat a popsat co bude cílem programu. Nutné odevzdat a nechat si schválit do 6. týdne!
-   2. Rozvhrnout strukturu programu, co bude potřeba využít.
+   2. Rozvrhnout strukturu programu, co bude potřeba využít.
    3. Napsat samotný program.
 
 - V případě, že pracujete na samostatné práci, je potřeba každý týden reportovat pokrok (příspěvek do github složky projektu).
@@ -23,7 +23,7 @@
 2. GNU Octave - free software
    - Volně ke [stažení](https://octave.org/) a k používání
 
-3. Python - bezkonkurenč nejrozšířenejší programovací jazyk v technických disciplínách
+3. Python - bezkonkurenčně nejrozšířenější programovací jazyk v technických disciplínách
    - Návod k [instalaci na Windows](https://kitner.cz/testovani_softwaru/jak-nainstalovat-python/). __POZOR! Je opravdu nutné zakliknou políčko "Add python.exe to PATH!"__ Jinak váš operační systém nebude vědět, odkud python spustit.
    - Linux obsahuje python automaticky.
 
