@@ -128,3 +128,5 @@ Projekty budu postupně doplňovat.
 - Program simulující pohyb planet Sluneční soustavy. Je možné vycházet z Keplerových zákonů nebo ve složitějším případě z diferenciálních rovnic popisující problém N-těles (vyžaduje numerické řešení). Výsledkem může být vykreslení trajektorií jednotlivých těles, ať už v podobě animace nebo statických grafů, či jednoduché grafické rozhraní.
 - Spočítejte rozdíl mezi dámským a pánským klikem - posouvá se opěrný bod páky, mění se její rameno, mění se poloha těžiště,... Možné doplnit o animaci.
 - Parametrický výpočet libovolného problému ze strojírenského konstruování (například návrh ventilu).
+- Napiště program, který simuluje výtok vody z nádoby. Nádobu následně vyměňte za Platónská tělesa se shodným charakteristickým rozměrem a porovnejte, jak dlouho voda vytéká pro různá tělesa.
+- Simulace srážkek biliárových koulý (dokonale pružný odraz). Výsledkem může být například program simulující kulečník.
