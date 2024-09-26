@@ -110,7 +110,7 @@ Doplňující poklady Numpy:
 - Přehled příkazů [NumPy: the absolute basics for beginners](https://numpy.org/doc/stable/user/absolute_beginners.html)
 
 V moment, kdy se obeznámíte se základními příkazy, už trochu tušíte co a jak zapsat, doporučil bych si vymyslet nějaký drobný problém nebo prográmek, který si můžete napsat - ať už proto, že se vám zrovna na něco hodí nebo by to mohlo být zajímavé. Pokud Vás nic nenapadne, klidně se ozvěte během cvičení nebo na mail, něco vymyslíme.
-Protože jediným způsobem jak se něco naučit je opakovat, opakovat a opakovat, je dobré využít každou dostupnou příležitost. Máš úkol z jiného předmětu (složitý příklad, laboratorní měření)? Zkus úkol zpracovat pomocí programu! (A program nahraj na github, můžeme jej na příštím cvičení projít a podívat se, zda by šlo něco udělat lépe. A taky brzo zjistíš, že je to takhle vlastně rychlejší a elegantnější).
+Protože jediným způsobem jak se něco naučit je opakovat, opakovat a opakovat, je dobré využít každou dostupnou příležitost. Máte úkol z jiného předmětu (složitý příklad, laboratorní měření)? Zkuste úkol zpracovat pomocí programu! (A program nahraj na github, můžeme jej na příštím cvičení projít a podívat se, zda by šlo něco udělat lépe. A taky brzo zjistíš, že je to takhle vlastně rychlejší a elegantnější).
 
 ### Užitečná moudra
 
