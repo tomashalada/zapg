@@ -16,10 +16,10 @@ Vyplnit předpřipravený moodle test nebo vypracovat následující úkol:
     - průměry zapiště do souboru souboru pomocí příkazu (__TIP__: Zapiště výsledek ve formátu LaTeXové nebo markdownové tabulky, která půjde hezky zobrazit.)
 
 2. Vytvořte matici náhodných čísel o rozměru 100x100 (lze vytvořit zcela náhodnou matici nebo si lze s úlohou vyhrát a do jednotlivých řádků matice uložit náhodnou odchylku od nějaké Vámi zvolené funkce).
-   (__AKTUALIZACE: Abychom to trochu ozvláštnili, můžete místo náhodné matice použít reálná data z výpočtů a měření. Do adresáře `du_data` jsem nahrál soubor s hodnotami k úloze, o které jsem mluvil na cvičení. V rámci adresáře naleznete dvojici souborů - první `data_vysky_hladin.csv` obsahuje výšky hladiny v čase a nahrazuje tak náhodnou matici.__ )
+   (__AKTUALIZACE: Abychom to trochu ozvláštnili, můžete místo náhodné matice použít reálná data z výpočtů a měření. Do adresáře [du_data](https://github.com/tomashalada/zapg/tree/main/03/du_data) jsem nahrál soubor s hodnotami k úloze, o které jsem mluvil na cvičení. V rámci adresáře naleznete dvojici souborů - první `data_vysky_hladin.csv` obsahuje výšky hladiny v čase a nahrazuje tak náhodnou matici.__ )
     - Zjistěte průměr všech řádků.
     - Vyneste do grafu hodnoty všech řádků, jejich průměr a standardní odchylku
-    - (__AKTUALIZACE: Rozhodnete-li se pro variantu s reálnými daty, v adresáři `du_data` naleznete ještě druhý soubor `data_experiment.dat`. Ten obsahuje pouze několik hodnot - výšku hladiny v několika málo bodech zjištěnou v rámci experimetnu. Vyneste tyto hodnoty jako body do grafu k průměru všech řádků (průměrné výšce hladiny). Tím můžete porovnat, jak přesně jsme v simulacích počítali.__)
+    - (__AKTUALIZACE: Rozhodnete-li se pro variantu s reálnými daty, v adresáři [du_data](https://github.com/tomashalada/zapg/tree/main/03/du_data) naleznete ještě druhý soubor `data_experiment.dat`. Ten obsahuje pouze několik hodnot - výšku hladiny v několika málo bodech zjištěnou v rámci experimetnu. Vyneste tyto hodnoty jako body do grafu k průměru všech řádků (průměrné výšce hladiny). Tím můžete porovnat, jak přesně jsme v simulacích počítali.__)
 
     - z vektoru průměrů určete nejmenší hodnotu
         - pomoci příkazu
