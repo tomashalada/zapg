@@ -10,10 +10,10 @@ x                        % vypis upraveny vektor
 
 disp("__________________________________________________")
 
-size(x)                  % vraci vektor obsahujici rozmery vektoru x
+x_sizes = size(x)        % vraci vektor obsahujici rozmery vektoru x
                          % tj. [pocetSloupcu, pocetRadku]
 
-for k = 1:size(x)(2)     % projdi vsechny prvky vektoru x
+for k = 1:x_sizes(2)     % projdi vsechny prvky vektoru x
   fprintf(" Prvek vektoru: %d.\n", x( k )) % vypis dany prvek
   if x( k ) == 5         % pokud prvek nabyva hodnoty 5
                          % proved nasledujici blok kodu
