@@ -1,6 +1,10 @@
 %%Nacteni dat ze souboru
 
 DATA = load( 'dataSimple.dat' );  % nacte data ze souboru
+                                  % POZOR: neni-li program spousten ze stejne slozky
+                                  % argumentem funkce load musi byt CELA CESTA, pod kterou
+                                  % lze soubor nalezt.
+
 help load;                        % zobrazi napovedu k prikazu load
 
 disp("__________________________________________________")
@@ -33,4 +37,3 @@ fclose( fileID );                             % "zavre" instanci prislusneho sou
 % POZNAMKA: V predchozi ukazce obsahuje format dva prvky. To je tim, ze
 %           zapisujeme budto dva textove retezce (hlavicka souboru)
 %           a nebo matici obsahujici dva slupce.
-
