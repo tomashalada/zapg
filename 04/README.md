@@ -7,7 +7,7 @@ Vyplnit předpřipravený moodle test nebo vypracovat následující úkol:
 Detailní popis úlohy naleznete [zde](https://github.com/tomashalada/zapg/blob/main/04/uloha_cviceni_tyden4-detail.pdf). Ve zkratce se jedná o následující kroky:
 
  - Načtěte data ze souboru "ux.dat"
-    První sloupec obsahuje vstupní signál a druhý sloupec příslušnou reakci systému.
+    První řádek obsahuje vstupní signál $u$ a druhý sloupec příslušnou změřenou reakci systému $y$.
 
  - Pomocí lineárního neuronu proveďte predikci reakce systému na základě vstupních dat.
 
@@ -22,7 +22,7 @@ Iterujte přes jednotlivé časové kroky.
 V každém časovém krorku:
    - vyčíslete vektor  $\mathbf{X}$
    - určete predicki v daném časovém kroku  $Y_{predikovane} = \mathbf{W} \cdot \mathbf{X}$
-   - urcete chybu mezi predikovanou hodnotou a měřenými hotnoatmi $e = Y_{merene} - Y_{predikovane}$
+   - urcete chybu mezi predikovanou hodnotou a měřenými hotnoatmi $e = y_{merene} - Y_{predikovane}$
    - určete, o kolik se změní váhy $\mathbf{W}$ pomocí vztahu $\Delta \mathbf{W} = 0.1  e  \mathbf{X}$
    - aktualizujte váhy $\mathbf{W} = \mathbf{W} + \Delta \mathbf{W}$
 
