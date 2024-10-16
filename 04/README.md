@@ -22,12 +22,12 @@ Iterujte přes jednotlivé časové kroky.
 V každém časovém krorku:
    - vyčíslete vektor  $\mathbf{X}$
    - určete predicki v daném časovém kroku  $Y_{predikovane} = \mathbf{W} \cdot \mathbf{X}$
-   - urcete chybu mezi predikovanou hodnotou a měřenými hotnoatmi $ e = Y_{merene} - Y_{predikovane} $
-   - určete, o kolik se změní váhy $\mathbf{W} $ pomocí vztahu $ \Delta \mathbf{W} = 0.1  e  \mathbf{X} $
-   - aktualizujte váhy $ \mathbf{W} = \mathbf{W} + \Delta \mathbf{W} $
+   - urcete chybu mezi predikovanou hodnotou a měřenými hotnoatmi $e = Y_{merene} - Y_{predikovane}$
+   - určete, o kolik se změní váhy $\mathbf{W} $ pomocí vztahu $\Delta \mathbf{W} = 0.1  e  \mathbf{X}$
+   - aktualizujte váhy $\mathbf{W} = \mathbf{W} + \Delta \mathbf{W}$
 
 Tímto způsobem zpravujte všechny časové kroky.
-Celý proces proveďte 10x (při každém opakovaní, tj. v každé epoše) se zlepsi odhad vah $ \mathbf{W} $.
+Celý proces proveďte 10x (při každém opakovaní, tj. v každé epoše) se zlepsi odhad vah $\mathbf{W}$.
 Tento proces se nazývá jako trénování - jednotlivé cykly jako epochy. (_Protože slova jako proklad/fitování a iterace by jiste nezněla tak dramaticky,..._)
 
    - Výsledky zobrazte pomocí subplotu ("help subplot") jako tři grafy pod sebou.
