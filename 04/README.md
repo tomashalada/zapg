@@ -13,9 +13,9 @@ Detailní popis úlohy naleznete [zde](https://github.com/tomashalada/zapg/blob/
 
     Linearní neuron má tvar:
 
-    $$ Y_{predikovane} = \mathbf{W} \cdot \mathbf{X} $$
-    $$ X = [x_1, x_2, x_3, x_4] =  [y(k-1), y(k-2), u(k-1), u(k-2)] $$
-    $$ W = [w_1, w_2, w_3, w_4] $$
+    $$Y_{predikovane} = \mathbf{W} \cdot \mathbf{X}$$
+    $$X = [x_1, x_2, x_3, x_4] =  [y(k-1), y(k-2), u(k-1), u(k-2)]$$
+    $$W = [w_1, w_2, w_3, w_4]$$
 
 Data jsou získána v jednotlivých časových krocích s konstatním vzorkováním.
 Iterujte přes jednotlivé časové kroky.
