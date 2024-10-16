@@ -4,7 +4,7 @@ Vyplnit předpřipravený moodle test nebo vypracovat následující úkol:
 
 ## Úkol - lineární neuron
 
-Detailní popis úlohy naleznete [zde](). Ve zkratce se jedná o následující kroky:
+Detailní popis úlohy naleznete [zde](https://github.com/tomashalada/zapg/blob/main/04/uloha_cviceni_tyden4-detail.pdf). Ve zkratce se jedná o následující kroky:
 
  - Načtěte data ze souboru "ux.dat"
     První sloupec obsahuje vstupní signál a druhý sloupec příslušnou reakci systému.
@@ -23,7 +23,7 @@ V každém časovém krorku:
    - vyčíslete vektor  $\mathbf{X}$
    - určete predicki v daném časovém kroku  $Y_{predikovane} = \mathbf{W} \cdot \mathbf{X}$
    - urcete chybu mezi predikovanou hodnotou a měřenými hotnoatmi $e = Y_{merene} - Y_{predikovane}$
-   - určete, o kolik se změní váhy $\mathbf{W} $ pomocí vztahu $\Delta \mathbf{W} = 0.1  e  \mathbf{X}$
+   - určete, o kolik se změní váhy $\mathbf{W}$ pomocí vztahu $\Delta \mathbf{W} = 0.1  e  \mathbf{X}$
    - aktualizujte váhy $\mathbf{W} = \mathbf{W} + \Delta \mathbf{W}$
 
 Tímto způsobem zpravujte všechny časové kroky.
