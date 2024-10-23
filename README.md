@@ -91,7 +91,7 @@ Jsem si vědom, že to z počátku je ohromná španělská vesnice, ale věřte
 
 ---
 
-## [Seminář KSI FJFI a pythonu v technické a věděcké praxi](https://gitlab.fjfi.cvut.cz/ksi/ppy2-2024/-/blob/main/jupyter_content/presentation.ipynb)
+## [Seminář KSI FJFI o pythonu v technické a vědecké praxi](https://gitlab.fjfi.cvut.cz/ksi/ppy2-2024/-/blob/main/jupyter_content/presentation.ipynb)
 
 Každé pondělí od 16:00 do 17:40, posluchárna T-101 (Trojanova 13 u Karlova náměstí, posluchárna hned naproti vstupu do budovy). Ukázky použití pythonu v různých oborech a odvětvích. [Zde](https://gitlab.fjfi.cvut.cz/ksi/ppy2-2023) je k dispozici obsah a podklady z předchozího roku.
 
