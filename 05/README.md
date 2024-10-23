@@ -15,3 +15,7 @@ $x_{n}$ označuje saturaci prostředí populací (procentuální poměr populace
    - Vytvořte graf, do kterého pro každé $r$ vynesete získaný stav populace. Pozor! Pro každé $r$ máte 100 hodnot! Do grafu zapište všechny. Nepoužívejte tedy funkci `plot`, ale použijte scatter. Podúloha - otestujte, co funkce `scatter dělá`.
 
 2. Zobrazte celý průběh populace v prvních 50 krocích (letech) pro $R = [ 0.5, 1.5, 3.25, 3.5, 3.7, 4 ]$, pro výchochí hodnotu $x_0 = 0.3 $. Každý průběh umístěte do stamostatného drafu v subplotu. Průběhy/grafy generujte pomocí funkce!
+
+#### Pozn.funkce a python
+
+Velmi dobrý úvod k funkcím lze [najít v materiálech FJFI](https://gitlab.fjfi.cvut.cz/ksi/zpro-2023-public/-/blob/main/07%20funkce.ipynb?ref_type=heads)
