@@ -8,7 +8,7 @@ print -dpng linearni_funkce_body.png
 A = [ 5, 0;
       0, 2.5]
 
-A = [ sum(1), sum(x);
+A = [ sum(length(x)), sum(x);
       sum(x), sum(x.*x) ]
 
 b = [ sum(y), sum(y.*x) ]

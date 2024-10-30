@@ -9,7 +9,7 @@ A = [ 5, 0, 2.5;
       0, 2.5, 0;
       2.5, 0., 2.125;]
 
-A_alt = [ sum(1),    sum(x),       sum(x.*x),
+A_alt = [ sum(length(x)),    sum(x),       sum(x.*x),
           sum(x),    sum(x.*x),    sum(x.*x.*x),
           sum(x.*x), sum(x.*x.*x), sum(x.*x.*x.*x)]
 
