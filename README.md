@@ -136,3 +136,4 @@ Projekty budu postupně doplňovat.
 - Parametrický výpočet libovolného problému ze strojírenského konstruování (například návrh ventilu).
 - Napiště program, který simuluje výtok vody z nádoby. Nádobu následně vyměňte za Platónská tělesa se shodným charakteristickým rozměrem a porovnejte, jak dlouho voda vytéká pro různá tělesa.
 - Simulace srážkek biliárových koulý (dokonale pružný odraz). Výsledkem může být například program simulující kulečník.
+- [Tupý vrták challange](https://gams.fjfi.cvut.cz/2024/05/drill-challenge/)
