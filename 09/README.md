@@ -8,7 +8,7 @@ Uvažujte následující [datasety](https://github.com/tomashalada/zapg/tree/mai
 
 dataset 1             |  dataset 2           |  dataset 3
 :-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/tomashalada/zapg/tree/main/09/ukol_obalka/sample_1.png)  |  ![](https://github.com/tomashalada/zapg/tree/main/09/ukol_obalka/sample_2.png) |  ![](https://github.com/tomashalada/zapg/tree/main/09/ukol_obalka/sample_3.png)
+![](./ukol_obalka/sample_1.png)  |  ![](./ukol_obalka/sample_2.png) |  ![](./ukol_obalka/sample_3.png)
 
 Sestave obálku daného mraku bodů - určete body, které leží na hranici a proveďte jejich interpolaci.
 
