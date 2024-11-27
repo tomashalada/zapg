@@ -56,11 +56,11 @@ getfield(druheMereni, 'casy')
 
 disp("__________________________________________________")
 
-pole = 'f';
-hodnoty = {'some text';
-           [10, 20, 30];
-           magic(5)};
-
-struktura = struct( pole, hodnoty )
-disp( 'Vypis pole struktury:' )
-disp( struktura(1).f )
+%pole = 'f';
+%hodnoty = {'some text';
+%           [10, 20, 30];
+%           magic(5)};
+%
+%struktura = struct( pole, hodnoty )
+%disp( 'Vypis pole struktury:' )
+%disp( struktura(1).f )
