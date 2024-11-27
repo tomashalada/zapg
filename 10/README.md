@@ -1,13 +1,14 @@
 # 10. cvičení - 27. 11. 2024
 
-Vyplnit předpřipravený moodle test nebo vypracovat jeden z následujících úkolů:
-
 ## Úkol - třídy
 
 Vytvořte třídu pro n-úhelník s využitím konceptu `class`.
    - n-úhelník je možné zadat pomocí bodů vrcholu, či libovolným jimýn způsobem
+
    - pro třídy zadefinujte funkce k výpočtu obvodu a obsahu
+
 	- vytvořte funkci, která určí, zda se dva n-úhelníky protínají
+
 	- ostestuje na jednoduchém příkladu
 
 Napadne-li Vás nějaká zajímavá a užitečná implementace třídy (například na některý z problémů z dřívějška), implementujte třídu pro tento problém.
