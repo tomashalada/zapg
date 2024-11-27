@@ -2,7 +2,7 @@
 
 Vyplnit předpřipravený moodle test nebo vypracovat jeden z následujících úkolů:
 
-## Úkol - interpolace jako obálka dat
+## Úkol - třídy
 
 Vytvořte třídu pro n-úhelník s využitím konceptu `class`.
    - n-úhelník je možné zadat pomocí bodů vrcholu, či libovolným jimýn způsobem
