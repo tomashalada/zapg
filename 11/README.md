@@ -4,7 +4,7 @@ Vypracuje moodle test nebo jednu z následujících dvou úloh pracující s dis
 
 ## Úkol - akord
 
-V přiloženém souboru `akord.wav` je nahradný akord A-dur
+V [přiloženém souboru](https://github.com/tomashalada/zapg/tree/main/11/data) `akord.wav` je nahradný akord A-dur
 - zvukovou nahrávku načtěte (maltab i python - například s využitím scipy obsahují funkci na načítání wav souborů) a zobrazte, jedná se o obyčejný 1d signál
 - proveďte DFT získaného sinálu a určete, které frekvence (tóny) akord A-dur obsahuje
 - rozhodněte, zda je kytara naladěná
