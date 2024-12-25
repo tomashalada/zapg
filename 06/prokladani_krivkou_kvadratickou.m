@@ -1,17 +1,15 @@
-x = [-1, -0.5, 0, 0.5, 1]
-y = [3, 4, 7, 18, 30]
+% Vstupni data
+x = [-1, -0.5, 0, 0.5, 1]           % polohy merenych bodu
+y = [3, 4, 7, 18, 30]               % merene hodnoty v bodech
 
 plot(x, y, 'ok', 'LineWidth',5)
 grid on
 print -dpng kvadraticka_funkce_body.png
 
-A = [ 5, 0, 2.5;
-      0, 2.5, 0;
-      2.5, 0., 2.125;]
 
-A_alt = [ sum(length(x)),    sum(x),       sum(x.*x),
-          sum(x),    sum(x.*x),    sum(x.*x.*x),
-          sum(x.*x), sum(x.*x.*x), sum(x.*x.*x.*x)]
+A = [ sum(length(x)), sum(x),       sum(x.*x),
+      sum(x),         sum(x.*x),    sum(x.*x.*x),
+      sum(x.*x),      sum(x.*x.*x), sum(x.*x.*x.*x)]
 
 b = [ sum(y), sum(y.*x), sum(y.*x.*x) ]
 

@@ -5,16 +5,13 @@ plot(x, y, 'ok', 'LineWidth',5)
 grid on
 print -dpng linearni_funkce_body.png
 
-A = [ 5, 0;
-      0, 2.5]
-
 A = [ sum(length(x)), sum(x);
       sum(x), sum(x.*x) ]
 
 b = [ sum(y), sum(y.*x) ]
 
-A_alt = fliplr(vander(x,2))' * fliplr(vander(x,2))
-b_alt = fliplr(vander(x,2))' * y'
+%A_alt = fliplr(vander(x,2))' * fliplr(vander(x,2))
+%b_alt = fliplr(vander(x,2))' * y'
 
 koef = A \b'
 linearni_funkce = @(x) koef(1) + koef(2)*x
